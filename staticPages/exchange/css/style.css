@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	position: relative;
+}
+header{
+	width: 100%;
+	height: 685px;
+	background: url("../images/headbg.png") 0 0 no-repeat;
+	background-size: 100% 685px;
+	position:relative;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+header img{
+	margin-top: 70px;
+}
+section{
+	width: 1220px;
+	margin: 0 auto;
+}
+#letter{
+	width: 100%;
+	/*height: 639px;*/
+	background: #ffde39;
+	position: relative;	
+	font-family: "雅黑";
+	font-size: 1.6em;
+	line-height: 1.75em;
+}
+#letter .cont{
+	text-indent: 2em;
+}
+#letter .cont strong{
+	color: #c31009;
+	font-weight: normal;
+	font-size: 1.15em
+}
+#letter .tip1{
+	font-weight: 900;
+	font-size: 1.35em;
+	color: #c31009; 
+	line-height: 4em;
+	text-align: center;
+}
+#letter .tip1 strong{
+	font-weight: 900;
+	font-size: 1.25em;	
+}
+#letter .triangle1{
+	border-bottom: 20px solid #880601;
+    border-left: 40px solid transparent;   
+    content: "";
+    display: block;
+    height: 0;
+    left: 0px;
+    position: absolute;
+    top: -20px;
+    width: 0;
+	color: #880601;
+}
+#letter .triangle2:before{
+	border-top: 20px solid #880601;   
+    border-right: 40px solid transparent;
+    content: "";
+    display: block;
+    height: 0;
+    right: 0px;
+    position: absolute;
+    bottom: -20px;
+    width: 0;
+	position: absolute;
+	color: #880601;
+}
+#letter h2{
+	width: 320px;
+	font-size: 1.75em;
+	color: #fff;
+	text-align: center;
+	line-height: 2em;
+	background: #c31009;
+	position: relative;
+	margin: 35px auto;
+}
+#letter .tip2{
+	color: #c31009;
+	font-size: 1.2em;	
+	text-align: center;
+	padding-top: 20px;
+}
+#letter .tip3{
+	color: #2a2a2a;	
+	text-align: center;
+}
+
+#main{
+	width: 100%;
+	background: #fbe883;
+	font-size: 1.6em;	
+}
+#main .step-tip1{
+	color: #c31009;
+	font-size: 1.25em;	
+	text-align: center;
+	padding-top: 2em;
+}
+#main .step-tip2{
+	color: #c31009;
+	font-size: 2.05em;
+	font-weight: 900;
+	text-align: center;
+	padding-bottom: 0.8em;
+}
+#main .step{
+	width: 1180px;
+	height: 250px;
+	position: relative;
+	margin-top: 30px;
+	background: #f9c27d;
+	color: #2a2a2a;
+	border-radius: 125px 0 0 125px;
+}
+#main .step .title{
+	width: 250px;
+	height: 250px;
+	border: 1.4em solid #c31009;
+	border-radius: 250px;	
+	background: #fbe883;
+	display: inline-block;
+}
+#main .step .title h3{
+	width: 1em;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin: 1em auto;
+}
+#main .step2{
+	border-radius: 0 125px 125px 0;
+}
+#main .step .second{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#main .step .text1{
+	width: 800px;	
+	display: inline-block;
+	text-align: center;
+	line-height: 1.5em;
+}
+#main .step .text1 p:last-child{
+	color: #c31009;
+}
+#main .step .text2{
+	width: 950px;	
+	display: inline-block;	
+	line-height: 1.5em;
+	padding: 2.5em 3em;	
+}
+#main .step .text2 strong{
+	font-size: 1.2em;
+	font-weight: 700;
+	color: #c31009;
+}
+#main .example{
+	margin-top: 10px;	
+}
+#main .example h3{
+	font-size: 1.3em;
+	line-height: 2em;
+	color: #c31009;
+	text-align: center;
+}
+#main .example table{
+	width: 850px;
+	margin: 30px auto 10px;	
+	border-collapse: collapse;
+	text-align: center;	
+}
+#main .example table td{
+	border: 1px solid #2a2a2a;
+	font-size: 0.9em;
+	padding: 0.2em 0;
+}
+#main .example p:last-child{
+	color: #c31009;
+	font-size: 0.9em;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#main .step .text3{
+	width: 900px;
+	display: inline-block;
+	padding: 3em;
+	position: absolute;
+	top: 0;
+	left: 350px;
+}
+#main .step .text3 p span:first-child{
+	position: relative;
+	top: -1em;
+	left: 0px;
+	font-size: 1.3em;
+	font-weight: 700;
+	color: #c31009; 
+}
+#main .step .text3 p span:last-child{
+	display: inline-block;
+	font-size: 1em;
+}
+#main .step .text3 p:last-child{	
+	font-size: 0.9em;
+	line-height: 3em;
+	color: #c31009; 
+}
+#main .details h3{
+	font-size: 1.3em;
+	color: #c31009; 
+	text-align: center;
+	margin: 20px 0;
+}
+#main .details table{
+	border-collapse: collapse;
+	width: 750px;
+	margin: 0 auto;
+}
+#main .details table td{
+	border: 1px solid #2a2a2a;
+	font-size: 0.9em;
+	text-align: center;
+	line-height: 1.5em;
+	padding: 0em 0.5em;
+}
+#main .details p:last-child{
+	width: 750px;	
+	font-size: 0.9em;
+	line-height: 1.5em;
+	position: relative;
+	margin: 1em auto;
+	padding: 0.5em 0 3em 0;
+}
+#main .details p:last-child span{
+	position: absolute;
+	left: -120px;
+	color: #c31009; 
+}
+footer{
+	width: 100%;
+	padding: 2em 0;
+	text-align: center;
+	background: #ffde39;
+	margin-top: -30px;
+
+}
+footer p{
+	font-size: 2em;
+	color: #c31009; 
+}
+footer>img{
+	padding-top: 2em;
+}
+
+

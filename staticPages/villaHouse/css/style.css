@@ -1,0 +1,518 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "宋体";	
+}
+h3{
+	font-family: "黑体";
+	font-size: 16px;
+}
+#outer{
+	width: 100%;	
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	/*position: relative;*/
+}
+header{	
+	height: 130px;
+	position: relative;
+}
+header .site-name{
+	height: 90px;
+	margin-top: 20px;
+	padding-left: 130px;
+	background: url("../images/top.png") 0 0 no-repeat;
+	float: left;
+}
+header .site-name>span{
+	font-family: "黑体";
+	font-size: 48px;	
+	letter-spacing: 10px;
+	text-decoration: underline;
+}
+header .site-name .subtitle{
+	font-family: "黑体";
+	font-size: 28px;
+	color: #555;
+	letter-spacing: 0px;
+	text-decoration: none;
+}
+header .tip{
+	font-size: 12px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+header .tel{
+	height: 60px;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	padding-left: 45px;
+	background: url("../images/tel.png") 0 15px no-repeat;	
+}
+header .tel .serveline{
+	float: left;
+	line-height: 60px;
+	font-family: '黑体';
+	font-size: 22px;
+	color: #666;
+	
+}
+header .tel .phone{
+	float:left;
+	font-family:  Arial,Helvetica,sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 28px;
+}
+header .tel .phone1{
+	color: #333;
+}
+header .tel .phone2{
+	color: #f00;
+	letter-spacing: 1.5px;
+}
+#outer nav{
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	width: 100%;
+	height: 40px;
+	background: url("../images/navbg.png") 0 0;
+	background-size: 100% 40px;
+}
+#outer nav ul{
+	width: 1000px;
+	margin: 0 auto;	
+}
+nav ul li{
+	display: block;
+	float: left;
+	list-style: none;
+	line-height: 40px;
+	text-align: center;
+	padding: 0 28px;
+	font-family: "黑体";
+	color: #fff;
+	position: relative;
+}
+nav ul li:before{
+	content: "";
+	position: absolute;
+    top: 0px;
+    height: 40px;
+    left: -1px;
+    width: 2px;
+    background:url("../images/border.png");
+}
+nav ul li:first-child:before{
+	background: no-repeat;
+}
+#banner{
+	height: 350px;
+	position: relative;
+	top: 40px;
+	margin-top: 10px;
+}
+#banner img{
+	margin: 0 auto;
+}
+#content{
+	position: relative;
+	top: 40px;	
+
+}
+#product{
+	width: 720px;
+	height: 920px;
+	float: left;
+}
+#product>div{
+	width: 720px;
+	height: 300px;
+	position: relative; 
+	margin-top: 8px;
+}
+#product>div h3{
+	width: 720px;
+	height: 30px;
+	background: #eee;
+	border: 1px solid #ddd;
+	text-indent: 1em;	
+	font-weight: 700;
+	line-height: 30px;
+}
+#product>div h3 span{
+	color: #EC8710;
+	font-size: 24px;
+}
+#product>div div{
+	position: absolute;
+	line-height: 30px;
+	top: 0px;
+	right: 15px;
+	color: #EC8710;
+	font-size: 12px;
+}
+#product ul{
+	width: 720px;
+	height: 270px;
+	border: 1px solid #ddd;
+	border-top: none;
+}
+#product ul li{
+	display: block;
+	width: 225px;	
+	float: left;
+	list-style: none;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-align: center;	
+}
+#product ul li span{
+	color: #555;	
+	font-size: 12px;
+	line-height: 20px;
+}
+#product ul li span.first{	
+	font-weight: bold;	
+}
+#aside{
+	width: 270px;
+	height: 920px;
+	float: left;	
+	margin-left: 10px;
+	position: relative;
+}
+#aside>div{
+	width: 270px;
+	height: 300px;
+	position: relative;	
+	margin-top: 8px;
+	border: 1px solid #ddd;
+}
+#aside h4{
+	width: 270px;
+	height: 30px;
+	font-size: 16px;
+	font-weight: normal;	
+	line-height: 30px;
+	border-bottom: 1px solid #ddd;	
+	position: relative;
+}
+#aside h4 span{
+	position: relative;
+	top: -5px;
+	height:30px; 
+	line-height: 30px;
+}
+#aside h4 img{
+	position: relative;	
+	margin: 0px 5px;
+}
+.more{
+	position: absolute;
+	line-height: 30px;
+	top: 0px;
+	right: 15px;
+	color: #EC8710;
+	font-size: 12px;
+}
+#aside .company p img{	
+	float: left;
+	margin: 0 5px 5px 0;	
+}
+#aside .company p{	
+	text-indent: 2em;
+	float: left;	
+	font-size: 12px;
+	line-height: 20px;
+	margin: 5px 5px 0 5px;
+}
+#aside .hotbrand ul li{
+	display: block;
+	width: 110px;
+	height: 80px;
+	float: left;
+	list-style: none;
+	font-size: 12px;
+	color: #777;
+	text-align: center;
+	margin: 10px 12px 0 12px;
+}
+#aside .wiki{
+	margin-top: 5px;
+}
+#aside .wiki ul{
+	width: 250px;			
+	margin: 0 0 0 20px;	
+}
+#aside .wiki ul li{
+	width: 210px;	
+	text-indent: 2em;
+	overflow: hidden;	
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #777;
+	font-size: 12px;
+	line-height: 30px;
+	position: relative;
+}
+#aside .wiki ul li:before{
+	content: "";
+	position: absolute;
+	top: 10px;
+    height: 10px;
+    left: 0px;
+    width: 15px;
+	background: url("../images/liststyle.png") no-repeat;
+}
+#designer{
+	width: 1000px;
+	height: 265px;	
+	border: 1px solid #ddd;
+	position: relative;
+	top: 60px;
+	margin-top: 8px;
+	clear: both;
+}
+#designer h3{
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #ddd;	
+	position: relative;
+}
+#designer h3 img{	
+	left: 10px;
+	top: 5px;
+	margin-right: 5px;
+}
+#designer .designer{	
+	height: 235px;		
+	margin-top: 15px;
+}
+#designer .designer>img:first-child{
+	float: left;
+	margin-left: 10px;
+}
+#designer .designer>img:last-child{
+	float: left;
+	margin-left: 0px;
+}
+#designer ul{
+	width: 930px;
+	height: 200px;
+	margin: 0 auto;
+	float: left;
+}
+#designer ul li{
+	display: block;
+	float: left;
+	width: 120px;
+	height: 200px;
+	list-style: none;
+	text-align: center;	
+	margin-left: 11px;
+}
+#designer ul li span{
+	font-size: 12px;
+	line-height: 15px;
+}
+#serve{
+	width: 1002px;
+	height: 380px;
+	top: 60px;
+	margin-top: 8px;
+	position: relative;
+	background: url("../images/cbg.png") 40px 100px no-repeat;
+}
+#edge{
+	width: 720px;
+	height: 365px;
+	border: 1px solid #ddd;	
+	position: relative;	
+	float: left;
+}
+#edge>div{
+	width: 720px;
+	height: 55px;
+	margin: 10px 0;	
+}
+#edge>div img{
+	float: left;
+	margin-left: 10px;
+}
+#edge>div span{
+	display: block;
+	float: left;
+	margin-left: 10px;
+	font-size: 14px;
+	font-family: "黑体";
+	color: #666;
+}
+#case{
+	width: 270px;
+	height: 365px;
+	border: 1px solid #ddd;
+	position: relative;	
+	margin-left: 8px;
+	float: left;
+}
+#case h4{
+	width: 270px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom: 1px solid #ddd;
+	position: relative;	
+}
+#case h4 img{
+	margin: 0 8px;
+}
+#case h4 span{
+	position: relative;
+	top: -8px;	
+}
+#case ul li{
+	display: block;
+	width: 270px;
+	height: 105px;
+	line-height: 20px;
+	list-style: none;
+	margin-top: 5px;
+	position: relative;
+}
+#case ul li img{
+	float: left;
+	margin: 5px;
+}
+#case ul li h5{
+	width: 90px;
+	height: 40px;
+	border-left: 2px solid #ddd;	
+	padding-left: 10px;
+	position: absolute;
+	left: 135px;
+	top: 5px;	
+}
+#case ul li p{
+	width: 130px;
+	height: 60px;
+	font-size: 12px;
+	text-indent: 2em;
+	line-height: 20px;	
+	color: #777;
+	position: absolute;
+	left: 135px;
+	top: 45px;	
+}
+#case ul li p span.clip{
+	display: inline-block;
+	position: relative;
+	left: -25px;
+	width: 90px;	
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#case ul li p span.detail{
+	color: #EC8710;
+	line-height: 20px;
+	position: relative;
+	top: -5px;
+	left: -20px;	
+}
+#brand{
+	width: 1002px;
+	height: 180px;	
+	position: relative;
+	top: 50px;
+	margin-top: 8px;	
+}
+#brand ul.brand{
+	width: 1002px;
+	height: 150px;
+	background: #ddd;
+}
+#brand ul.brand li{
+	display: block;
+	float: left;
+	width: 140px;
+	height: 150px;
+	margin: 0 13px;
+	text-align: center;
+	list-style: none;	
+}
+#brand ul.brand li img{
+	margin: 15px auto;
+	margin-bottom: 8px;
+}
+#brand ul.brand li span{
+	display: block;
+	font-size: 12px;
+	line-height: 15px;
+}
+#brand ul.link li{
+	display: block;
+	list-style: none;
+	padding: 0 5px;
+	line-height: 30px;
+	float: left;
+	font-size: 12px;
+	color: #666;
+}
+#brand ul.link li:first-child{
+	color: #000;
+}
+#outer footer{
+	width: 100%;
+	height: 115px;
+	background: #000;		
+	position: relative;
+	top: 50px;
+}
+#outer footer .site-link{
+	width: 100%;
+	height: 50px;
+	background: #555;
+	text-align: center;
+	position: relative;
+}
+#outer footer .site-link ul{
+	width: 350px; 	
+	margin: 0 auto;	
+}
+#outer footer ul li{
+	display: block;	
+	height: 14px;
+	list-style: none;
+	line-height: 14px; 
+	margin-top: 17px;
+	padding: 0 5px;
+	border-right: 1px solid #aaa;	
+	float: left;
+}
+#outer footer ul li:last-child{
+	border-right: none;
+}
+#outer footer ul li a{
+	color: #aaa;
+	text-decoration: none;
+	font-size: 12px;
+}
+#outer footer .site-info{
+	width: 530px;
+	height: 35px;	
+	margin: 20px auto;
+	position: relative;
+}
+#outer footer .site-info p{
+	color: #aaa;
+	font-size: 12px;
+	line-height: 10px;	
+}

@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#dropDownMenu{
+	width: 200px;	height: 200px;
+	position: absolute;top: 100px;left: 50%;margin-left: -100px;
+}
+.startBtn li{
+	list-style: none;
+	background: #fbb;
+}
+#startMenuBtn{
+	width: 200px;	
+	height: 30px;
+	line-height: 30px;
+	background: #fbb;
+}
+#startMenuBtn:hover{
+	background: #fcc; 
+ 	cursor: pointer; 	
+}
+.startBtn ul{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;	
+	background: #fbb;
+	display: none;
+}
+ .startBtn ul li{
+ 	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+ } 
+ .startBtn ul li:hover ul{
+ 	width: 200px;
+ 	background: #fbb;
+ 	position: absolute;left: 200px;top: 0;
+	display: block;
+ }
+ .startBtn ul li:hover p{
+ 	width: 200px;
+ 	background: #fcc; 
+ 	cursor: pointer; 	
+ }
+ .startBtn ul li:hover ul li:hover{
+ 	width: 200px;
+ 	background: #fcc; 
+ 	cursor: pointer; 	
+ }
+ .startBtn ul li:hover ul li ul{
+ 	display: none;
+ }
+ /*第二层*/ 
+.startBtn ul li:hover ul li:hover ul{
+ 	width: 200px;
+ 	background: #fbb;
+ 	position: absolute;left: 200px;top: 0;
+	display: block;
+ }
+.startBtn ul li:hover ul li:hover p{
+ 	width: 200px;
+ 	background: #fcc; 
+ 	cursor: pointer; 	
+ }
+ .startBtn ul li:hover ul li:hover ul li ul{
+ 	display: none;
+ }
+ /*第三层*/ 
+ .startBtn ul li:hover ul li:hover ul li:hover ul{
+	width: 200px;
+ 	background: #fbb;
+ 	position: absolute;left: 200px;top: 0;
+	display: block;
+ }
+ .startBtn ul li:hover ul li:hover ul li:hover p{
+ 	width: 200px;
+ 	background: #fcc;
+ 	cursor: pointer; 	
+ }
+ .startBtn ul li:hover ul li:hover ul li:hover ul li ul{
+ 	display: none;
+ }
+ .startBtn ul li:hover ul li:hover ul li:hover ul li ul li:hover{
+	background: #fcc;
+ 	cursor: pointer; 		
+ }

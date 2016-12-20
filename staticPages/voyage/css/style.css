@@ -1,0 +1,443 @@
+*{
+	padding: 0;
+	margin: 0;	
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;	
+}
+body{
+	width: 1920px;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	width: 1920px;
+	height: 40px;
+	position: relative;
+	background: #2C3E50;
+	color: #fff;
+}
+header>div{
+	width: 1360px;
+	height: 40px;	
+	margin: 0 auto;
+	position: relative;
+}
+
+header ul{
+	height: 40px;
+	float: left;
+}
+header li{		
+	height: 40px;
+	padding: 0 10px;
+	line-height: 40px;
+	display: inline-block;
+	border-right:1px solid #101A25;	
+}
+.cont{
+	position: absolute;
+	right: 0px;
+}
+.cont li{
+	border: none;
+	padding: 0 5px;
+}
+header li a{
+	color: #fff;
+}
+header li span a{
+	color: #20D2AF;
+}
+#nav{
+	width: 1920px;
+	height: 90px;	
+	position: relative;	
+}
+#nav>div{
+	width: 1360px;
+	height: 90px;
+	margin: 0 auto;
+	position: relative;
+}
+#nav>div>img{
+	display: block;
+	float: left;
+	line-height: 90px;	
+	padding: 30px 10px;
+}
+#nav .nav{
+	height: 90px;
+	position: absolute;
+	right: 0;
+}
+#nav .nav li{
+	display: inline-block;
+	line-height: 90px;
+	padding: 0 15px;
+}
+#nav .nav li a{	
+	font-size: 15px;
+	color: #777;
+	font-weight: 700;
+}
+#nav .nav .home a{
+	color: #20D2AF;
+}
+#nav .nav li img{
+	position: relative;
+	top: 14px;
+}
+#imglab{
+	width: 1920px;
+	height: 910px;
+	background: url("../images/banner.png") 0 -150px no-repeat;
+	background-size: 1920px 937px;
+	position: relative;
+}
+#imglab .slog{
+	width: 1360px;
+	height: 787px;
+	text-align: center;
+	margin: 0 auto;	
+}
+#imglab .slogan{
+	width: 1360px;
+	position: absolute;
+	top: 240px;
+	margin: 0 auto;
+	color: #fff;
+}
+#imglab .slogan h2{
+	font-size: 50px;
+	line-height: 100px;
+}
+#imglab .slogan p{
+	font-size: 28px;
+}
+#imglab .more{
+	width: 1360px;
+	position: absolute;
+	top: 420px;
+	margin: 0 auto;
+}
+#imglab .more div{
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	padding: 15px;
+}
+#imglab .more div.map{
+	background: #20D2AF;
+	border: 2px solid #20D2AF;
+	margin-right: 25px;
+}
+#imglab .more div a{
+	color: #fff;
+	font-size: 22px;
+}
+#imglab .find{
+	width: 1920px;
+	height: 123px;
+	position: absolute;
+	top: 787px;
+	background: #2C3E50;
+}
+#imglab ul{
+	width: 1360px;
+	height: 123px;
+	margin: 0 auto;
+	position: relative;
+}
+#imglab ul li{
+	height: 123px;
+	color: #ddd;
+	font-size: 20px;
+	display: inline-block;
+	margin-right: 35px;
+	position: relative;
+	/*line-height: 123px;*/	
+}
+#imglab ul li span{
+	color: #fff;
+	font-size: 24px;
+	font-weight: 700;
+}
+#imglab ul li#find{
+	position: relative;
+	top: 15px;
+}
+#imglab ul li div{
+	height: 123px;
+	display: inline-block;	
+	margin: 0 20px;
+	text-align: center;
+	line-height: 123px;
+}
+#imglab ul li input{
+	width: 330px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #bbb;
+	padding-left: 15px;
+}
+#imglab ul li button{	
+	width: 100px;
+	height: 50px;
+	color: #fff;
+	font-size: 20px;	
+	border: 2px solid #20D2AF;	
+	background: #20D2AF;
+}
+#imglab ul li img{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right: 40px;
+	top: 50px;
+}
+#offers{
+	width: 1920px;
+	height: 580px;	
+	text-align: center;
+	position: relative;
+}
+#offers>div{
+	margin: 90px auto;
+	position: relative;
+}
+#offers h3{
+	font-size: 28px;
+	line-height: 40px;
+	color: #2C3E50;
+}
+#offers p{
+	font-size: 18px;
+	line-height: 20px;
+	color: #999;
+}
+/*无法做到多列图片垂直居中*/
+#offers .destin{
+	width: 1920px;
+	height: 462px;	
+	display: table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+#offers .destin img{
+	display: inline-block;
+	margin: auto 20px;
+	/*margin-right: 20px;	*/	
+}
+#holidays{
+	width: 1920px;
+	height: 550px;
+	background: url("../images/holiday-type.png") 0 0 no-repeat;
+	background-size: 1920px 550px;
+	position: relative;	
+}
+#holidays>div{
+	width: 1360px;
+	height: 350px;
+	text-align: center;
+	position: relative;	
+	top: 100px;
+	margin: 0 auto;
+	
+}
+#holidays h3{
+	font-size: 28px;
+	line-height: 40px;
+	color: #fff;
+}
+#holidays p{
+	font-size: 18px;
+	color: #8598A9;
+	line-height: 25px;
+}
+#holidays .holi-type img{
+	display: inline-block;
+	margin: 70px 20px;
+}
+#clients{
+	width: 1920px;
+	height: 350px;
+	position: relative;
+}
+#clients h3{
+	width: 1920px;
+	font-size: 28px;
+	line-height: 40px;
+	color: #2C3E50;	
+	text-align: center;
+	margin-top: 100px;
+	position: relative;
+}
+
+#clients>p{
+	width: 1920px;
+	font-size: 18px;
+	color: #666666;
+	text-align: center;
+	line-height: 25px;	
+}
+#clients>div{
+	width: 1360px;
+	height: 120px;	
+	margin: 50 auto;	
+}
+#clients .client{	
+	width: 410px;	
+	height: 100px;
+	font-size: 16px;
+	color: #bbb;;
+	border: 1px solid #eee;
+	padding: 15px;	
+	margin-right: 10px;
+	float: left;
+}
+#clients .cName{
+	font-size: 20px;
+	color: #20D2AF;
+}
+#clients .country{
+	font-size: 15px;
+	color: #ddd;
+}
+#clients .middle{
+	color: #666666;
+	border: 1px solid #dddddd;
+	border-top: 3px solid #20D2AF;
+}
+#footer{
+	width: 1920px;
+	height: 450px;
+	background: url("../images/shape 8.png");
+	background-size: 1920px 450px;
+	margin-top: 50px;
+	position: relative;
+	box-sizing: border-box;
+}
+#footer .footer{
+	width: 1360px;
+	height: 300px;
+	margin: 0 auto;
+}
+#footer .footer #info{
+	padding-top: 50px;	
+}
+#footer .footer #info>li{
+	width: 300px;
+	height: 200px;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	margin-right: 40px;
+	padding: 10px 20px;
+}
+#footer .footer #info>li h4{
+	font-size: 22px;
+	font-weight: 700;
+	color: #20D2AF;
+	line-height: 50px;	
+}
+#footer .footer #info>li ul li{
+	display: inline-block;	
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#newslett div{
+	color: #fff;
+	font-size: 14px;
+	line-height: 30px;
+}
+#newslett input{
+	width: 150px;
+	height: 30px;
+	color: #bbb;
+	border: none;
+	border-radius: 3px;
+	margin-top: 15px;
+}
+#newslett button{
+	width: 50px;
+	height: 30px;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	margin-top: 15px;
+	margin-left: 10px;
+	background: #20D2AF;
+}
+#latest .latest{
+	color: #fff;	
+	margin: 10px 0;
+}
+#latest img{
+	float: left;
+	margin-right: 20px;
+}
+#latest .latest div{
+	font-size: 14px;
+}
+#latest .latest .date{
+	color: #20D2AF;
+	line-height: 30px;
+}
+#tags{
+	color: #fff;
+	font-size: 14px;
+}
+#tags span{
+	line-height: 25px;	
+	border: 1px solid #fff;
+	padding: 0 5px;
+	margin: 5px 2px 0 0;
+	display: inline-block;
+}
+#address{
+	color: #fff;
+	font-size: 14px;
+	line-height: 30px;
+}
+#address span{
+	color: #20D2AF; 
+}
+#footer-info{
+	width: 1920px;
+	height: 150px;
+	border-top: 1px solid #4C5F71;
+	text-align: center;
+	color: #fff;
+}
+#footer-info ul{
+	padding-top: 40px;
+}
+#footer-info ul li{
+	display: inline-block;	
+	border-right: 1px dashed #fff;
+	border-left: 1px dashed #fff;	
+	padding: 0 10px;
+	font-size: 16px;	
+}
+#footer-info ul :nth-child(1){
+	border-left: none;	
+}
+#footer-info ul :nth-last-child(1){
+	border-right: none; 
+}
+#footer-info .copyright{
+	line-height: 40px;
+	color: #9EB1C1;4
+	font-size: 14px;
+}
+#footer-info img{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}

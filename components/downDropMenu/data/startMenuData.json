@@ -1,0 +1,74 @@
+{
+    "subMenu": [{
+        "name": "菜单一",
+        "subMenu": [{
+            "name": "菜单1/1",
+            "subMenu": [{
+                "name": "菜单1/1/1",
+                "subMenu": [{
+                    "name": "菜单1/1/1/1",
+                    "url": "http://www.baidu.com"
+                }, {
+                    "name": "菜单1/1/1/2",
+                    "url": "http://www.baidu.com"
+                }]
+            }, {
+                "name": "菜单1/1/2",
+                "url": "http://www.baidu.com"
+            }],
+            "url": "http://www.baidu.com"
+        }, {
+            "name": "菜单1/2",
+            "url": "http://www.baidu.com"
+        }, {
+            "name": "菜单1/3",
+            "url": "http://www.hao123.com"
+        }]
+    }, {
+        "name": "菜单二",
+        "subMenu": [{
+            "name": "菜单2/1",
+            "url": "http://www.baidu.com"
+        }, {
+            "name": "菜单2/2",
+            "url": "http://www.baidu.com",
+            "subMenu": [{
+                "name": "菜单2/2/1",
+                "url": "http://www.baidu.com"
+            }, {
+                "name": "菜单2/2/2",
+                "url": "http://www.baidu.com"
+            }]
+        }, {
+            "name": "菜单2/3",
+            "url": "http://www.baidu.com"
+        }, {
+            "name": "菜单2/4",
+            "url": "http://www.baidu.com"
+        }]
+    }, {
+        "name": "菜单三",
+        "subMenu": [{
+            "name": "菜单3/1",
+            "url": "http://www.baidu.com"
+        }, {
+            "name": "菜单3/2",
+            "url": "http://www.baidu.com"
+        }, {
+            "name": "菜单3/3",
+            "url": "http://www.baidu.com"
+        }]
+    }, {
+        "name": "菜单四",
+        "subMenu": [{
+            "name": "菜单4/1",
+            "url": "http://www.baidu.com"
+        }, {
+            "name": "菜单4/2",
+            "url": "http://www.baidu.com"
+        }, {
+            "name": "菜单4/3",
+            "url": "http://www.baidu.com"
+        }]
+    }]
+}

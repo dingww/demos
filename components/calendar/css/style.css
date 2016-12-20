@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#calendar{
+	width: 280px;	
+	box-shadow: 0 0 0px 1px #bbb;
+	margin: 100px auto;
+	position: relative;
+}
+#calendar .control{
+	width: 280px;
+	height: 35px;
+	font-size: 15px;
+}
+.control>div{	
+	float: left;	
+	height: 25px;
+	border: 1px solid #ddd;
+	margin: 5px 0 5px 5px;	
+	line-height: 25px;
+	position: relative;
+}
+.control .sele-year>span{
+	padding: 0 5px 0 10px;
+}
+.control .sele-year img{
+	padding-left: 5px;
+}
+.control .sele-year ul{
+	width: 83px;
+	height: 150px;
+	overflow: auto;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	position: absolute;
+	top: 25px;
+	left: -1px;
+	z-index: 10;
+	display: none;	
+}
+.control .sele-year ul li{
+	list-style: none;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.control .sele-year ul li:last-child{
+	border: none;
+}
+.control .sele-month span{	
+	display: inline-block;
+	height: 25px;	
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.control .sele-month span span{
+	display: inline-block;	
+	width: 35px;
+	height: 25px;
+	padding: 0 3px;		
+	border: none;
+	text-align: center;
+}
+.control .sele-month #left{
+	position: relative;
+	top: 3px;
+}
+.control .sele-month #right{
+	position: relative;
+	top: 3px;
+}
+.control .sele-month ul{
+	width: 57px;
+	height: 150px;
+	overflow: auto;
+	background: #fff;
+	position: absolute;
+	top: 25px;
+	left: 16px;
+	border: 1px solid #ddd;	
+	z-index: 10;
+	display: none; 
+}
+.control .sele-month ul li{
+	list-style: none;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.control .sele-month ul li:last-child{
+	border: none;
+}
+.control>div:last-child{
+	padding: 0 9px;
+}
+table{
+	border-collapse: collapse;
+}
+td,th{
+	width: 40px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #e0e0e0;	
+	color: #999;
+	background-color: #f8f8f8;
+}
+th{
+	background: #fee;
+	color: #333;	
+}
+.today{
+	color: #333;
+	background-color: #fcc;
+}
+.themonth{
+	color: #333;
+}
