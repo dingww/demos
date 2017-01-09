@@ -1,8 +1,3 @@
-A First Level Header
-====================
-A Second Level Header
----------------------
+# 一个简单的日历插件
 
-Now is the time for all good men to come to
-the aid of their country. This is just a
-regular paragraph.
+具有选择年份、月份选择功能，可以显示不同年份、月份的日期，可返回当天的日期显示。
