@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/*reset*/
+li {
+  list-style: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/*main*/
+body {
+  background-color: #Fdc;
+  position: relative; }
+
+#title {
+  font-family: "Arial","雅黑";
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #f87;
+  text-shadow: 1px 2px 1px #fee;
+  text-align: center;
+  margin-top: 50px; }
+
+#container {
+  width: 1290px;
+  margin: 0 auto; }
+
+.clr-box {
+  width: 250px;
+  height: 310px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 80px 35px 0;
+  float: left;
+  overflow: auto;
+  position: relative; }
+
+.clr-hover {
+  box-shadow: 0 0 5px #Ffffff; }
+
+/*配置颜色*/
+ul.colors {
+  width: 230px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px; }
+  ul.colors .color-1 {
+    width: 230px;
+    color: #fff;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-family: "Arial";
+    font-weight: 700;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0; }
+  ul.colors .color-2 {
+    width: 230px;
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-family: "Arial";
+    font-weight: 700;
+    overflow: hidden; }
+  ul.colors .color-3 {
+    width: 230px;
+    color: #fff;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    font-family: "Arial";
+    font-weight: 700;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px; }
+
+.item-1 .color-1 {
+  background-color: #fffadd; }
+.item-1 .color-2 {
+  background-color: #313236; }
+.item-1 .color-3 {
+  background-color: #101115; }
+
+.item-2 .color-1 {
+  background-color: #e9f1f3; }
+.item-2 .color-2 {
+  background-color: #d1dcce; }
+.item-2 .color-3 {
+  background-color: #697e2f; }
+
+.item-3 .color-1 {
+  background-color: #fffdef; }
+.item-3 .color-2 {
+  background-color: #dee9cc; }
+.item-3 .color-3 {
+  background-color: #949c97; }
+
+.item-4 .color-1 {
+  background-color: #e3efd1; }
+.item-4 .color-2 {
+  background-color: #bed2b6; }
+.item-4 .color-3 {
+  background-color: #a9b08f; }
+
+.item-5 .color-1 {
+  background-color: #ffefd0; }
+.item-5 .color-2 {
+  background-color: #ffd2c5; }
+.item-5 .color-3 {
+  background-color: #ff8877; }
+
+.item-6 .color-1 {
+  background-color: #fab0a9; }
+.item-6 .color-2 {
+  background-color: #ef766d; }
+.item-6 .color-3 {
+  background-color: #4d1919; }
+
+.item-7 .color-1 {
+  background-color: #dddddd; }
+.item-7 .color-2 {
+  background-color: #ff8b3d; }
+.item-7 .color-3 {
+  background-color: #020202; }
+
+.item-8 .color-1 {
+  background-color: #e2ddd4; }
+.item-8 .color-2 {
+  background-color: #a49479; }
+.item-8 .color-3 {
+  background-color: #3e3c3d; }
+
+.item-9 .color-1 {
+  background-color: #f0faf1; }
+.item-9 .color-2 {
+  background-color: #b7ecd8; }
+.item-9 .color-3 {
+  background-color: #70cfaf; }
+
+.item-10 .color-1 {
+  background-color: #b7ecd8; }
+.item-10 .color-2 {
+  background-color: #70cfaf; }
+.item-10 .color-3 {
+  background-color: #50b0a0; }
+
+.item-11 .color-1 {
+  background-color: #c2cbce; }
+.item-11 .color-2 {
+  background-color: #96c668; }
+.item-11 .color-3 {
+  background-color: #54aeef; }
+
+.item-12 .color-1 {
+  background-color: #d0eee6; }
+.item-12 .color-2 {
+  background-color: #aad3d5; }
+.item-12 .color-3 {
+  background-color: #1f556d; }
+
+ul.colors li.hover {
+  background-color: rgba(100, 100, 100, 0.4) !important; }
+
+.like {
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px solid #ddd;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden; }
+  .like .icon {
+    line-height: 50px;
+    margin: 0 10px;
+    position: relative;
+    top: 7px; }
+  .like .count {
+    font-size: 15px;
+    color: #999; }

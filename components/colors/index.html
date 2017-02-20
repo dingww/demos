@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>配色集</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>	
+	<div id="title">Dellaの配色集</div>
+	<!-- <div id="container"></div> -->
+</body>
+</html>
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+	$(function(){		
+		var config = {
+			id:"container",
+			class:["class1"],
+			len0:[12],  //配置配色方案的个数
+			len1:[3]   //配置每个方案颜色的个数
+		};
+
+		$().colorBoard(config);
+	})
+</script>

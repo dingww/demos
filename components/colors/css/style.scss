@@ -1,0 +1,124 @@
+/*reset*/
+li{
+	list-style: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+/*main*/
+body{
+	background-color: #Fdc;
+	position: relative;
+}
+#title{		
+	font-family: "Arial","雅黑";
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #f87;
+	text-shadow: 1px 2px 1px #fee;
+	text-align: center;
+	margin-top: 50px;	
+}
+#container{
+	width: 1290px;
+	margin: 0 auto;
+}
+
+$width:250px;
+.clr-box{
+	width: $width;
+	height: 310px;
+	background-color: #fff;
+	border: 1px solid #ddd;	
+	border-radius: 10px;	
+	margin: 80px 35px 0;
+	float: left;
+	overflow: auto;
+	position: relative;
+}
+.clr-hover{
+	box-shadow: 0 0 5px #Ffffff;
+}
+
+/*配置颜色*/ 
+$bgc1:#FFFADD,#313236,#101115;
+$bgc2:#E9F1F3,#D1DCCE,#697E2F;
+$bgc3:#FFFDEF,#DEE9CC,#949C97;
+$bgc4:#E3EFD1,#BED2B6,#A9B08F;
+$bgc5:#FFEfD0,#FFd2c5,#FF8877;
+$bgc6:#FAB0A9,#EF766D,#4D1919;
+$bgc7:#dddddd,#FF8B3D,#020202;
+$bgc8:#E2DDD4,#A49479,#3E3C3D;
+$bgc9:#F0FAF1,#B7ECD8,#70CFAF;
+$bgc10:#B7ECD8,#70CFAF,#50B0A0;.
+$bgc11:#C2CBCE,#96C668,#54AEEF;
+$bgc12:#D0EEE6,#AAD3D5,#1F556D;//#D6EBE2,#F2F2F2,#309EA0,#283444
+
+$bgc:$bgc1,$bgc2,$bgc3,$bgc4,$bgc5,$bgc6,$bgc7,$bgc8,$bgc9,$bgc10,$bgc11,$bgc12;
+$cwidth:230px;
+
+@mixin bgc($value){	
+	background-color:$value;		
+}
+ul.colors{
+	width: $cwidth;
+	height: 250px;
+	margin: 10px;
+	border-radius: 10px;
+	@for $i from 1 through 3{
+		.color-#{$i}{
+			width: $cwidth;
+			color: #fff;
+			height: 60px + 10*$i;
+			line-height: 60px + 10*$i;
+			text-align: center;
+			font-family: "Arial";
+			font-weight: 700;
+			overflow: hidden;	
+			@if $i==1{
+				border-radius:10px 10px 0 0;
+			}
+			@if $i==3{
+				border-radius: 0 0 10px 10px;
+			}
+		}		
+	}	
+}
+
+@for $m from 1 through 12{
+	.item-#{$m}{
+		@for $n from 1 through 3{
+			.color-#{$n}{
+				@include bgc(nth(nth($bgc, $m),$n));
+			}
+		}		
+	}
+}
+
+ul.colors li.hover{
+	background-color: rgba(100,100,100,0.4) !important;
+}
+
+.like{
+	width:$width;
+	height:50px;
+	line-height: 50px;
+	border-top: 1px solid #ddd;	
+	opacity: 0.7;
+	position: absolute;
+	bottom: 0;
+	overflow:hidden;
+	.icon{
+		line-height: 50px;
+		margin: 0 10px;
+		position: relative;	
+		top: 7px;
+	}
+	.count{
+		font-size: 15px;
+		color: #999;		
+	}
+}
+
