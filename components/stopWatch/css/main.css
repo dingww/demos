@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #fff;
+	font-family: "Hiragino Sans GB", "Hiragino Sans GB W3", 微软雅黑;
+}
+#container{
+	width: 90%;
+	max-width: 400px;
+	padding: 10px;
+	margin: 10px auto;
+	position: relative;	
+}
+.control{
+	width: 100%;
+	height: 35px;
+	font-size: 16px;
+	font-family: 'Yahei';
+	margin-bottom: 20px;
+}
+button{
+	font-size: 16px;
+	border: none;	
+}
+.oneBtn button{
+	width: 100%;
+	height: 35px;
+	background-color: #4FC08D;	
+	border-radius: 5px;		
+	cursor: pointer;
+}
+.twoBtn{
+	width: 100%;
+}
+.twoBtn button{
+	width: 50%;
+	height: 35px;	
+	background-color: #4FC08D;	
+	display: inline-block;
+	cursor: pointer;
+}
+.twoBtn button:first-child{
+	border-radius: 5px 0 0 5px;
+}
+.twoBtn button:last-child{
+	border-radius: 0 5px 5px 0;
+}
+.box{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #515256;
+	font-size: 32px;
+	font-weight: 700;
+	border: 1px solid #eee;	
+	border-radius: 5px;		
+}
+
+#record{
+	width: 100%;	
+	margin-top: 20px;
+}
+.record{
+	width: 100%;	
+	font-size: 14px;
+	line-height: 30px;
+	color: #515256;	
+	border-bottom: 1px solid #ddd;
+	padding-left: 15px;
+	letter-spacing: 1px;
+	position: relative;
+}
+.record span{
+	color: #515256;	
+	font-size: 14px;	
+}
+.record div{
+	color: #515256;	
+	display: inline-block;	
+}
+.record .Nth{	
+	width: 60px;
+	font-size: 12px;
+}
+.record .time{	
+	width: 80px;
+}
+.record .deltime{	
+	width: 70px;
+	height: 20px;	
+	text-align: center;
+	line-height: 15px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	float: right;
+	position: relative;
+	top: 5px;
+}
+
+.record .deltime span{
+	color: #888;
+	font-size: 12px;
+}
+
+
+
+
