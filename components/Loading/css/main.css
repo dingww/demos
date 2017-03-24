@@ -1,0 +1,30 @@
+.btn{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	background-color: #f66;
+	color: #fff;
+	border-radius: 10px;
+	margin: 50px auto;
+	cursor: pointer;
+}
+.loadClass{
+	width: 200px;height: 100px;background: #ccc;
+	border-radius: 10px;color: #666;text-align: center;
+	line-height: 100px;font-size: 22px;
+	position: absolute;top: 50%;left: 50%;
+	margin:-50px 0 0 -100px;z-index: 999;
+}
+
+.maskClass{
+	width: 100%;
+	background-color: #000;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 998;
+}
+
